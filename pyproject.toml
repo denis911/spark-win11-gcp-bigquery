@@ -1,0 +1,11 @@
+[project]
+name = "spark-win11-gcp-bigquery"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "notebook>=7.5.4",
+    "pandas>=3.0.1",
+    "pyspark>=4.1.1",
+]
