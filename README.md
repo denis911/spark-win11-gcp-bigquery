@@ -11,9 +11,14 @@ Follow these steps to set up a fully functional Spark environment on your Window
 #### Java Development Kit (JDK)
 Spark requires Java. We recommend using **Zulu OpenJDK 11, 17, or 21**.
 - **Installation via Chocolatey**:
-  ```powershell
-  choco install zulu21
-  ```
+  - **Latest LTS (Recommended)**:
+    ```powershell
+    choco install zulu
+    ```
+  - **Specific version (e.g., Java 21)**:
+    ```powershell
+    choco install zulu21
+    ```
 - **Manual Verification**: Run `java -version` to ensure it's installed.
 
 #### Python
