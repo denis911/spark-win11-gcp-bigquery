@@ -24,6 +24,14 @@ Spark requires Java. We recommend using **Zulu OpenJDK 11, 17, or 21**.
 #### Python
 PySpark requires Python 3.7+. We recommend using [uv](https://github.com/astral-sh/uv) or a standard Python 3.x installer.
 
+#### Wget (Optional)
+To simplify downloading Spark and WinUtils via command line, you can install the GNU version of `wget`.
+- **Installation via Chocolatey**:
+  ```powershell
+  choco install wget
+  ```
+- **Note**: This will replace the default PowerShell `wget` alias with the actual GNU `wget` utility.
+
 ---
 
 ### 2. Download and Extract Apache Spark
